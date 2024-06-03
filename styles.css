@@ -1,0 +1,171 @@
+#headerContainer {
+    display: flex;
+    margin: 5px;
+    color: blue;
+  }
+
+  
+  #headerContainer {
+    display: flex;
+    height: 40px;
+    width: fit-content;
+    margin: 5px;
+  
+    & img {
+      margin: 10px;
+    }
+  }
+  
+  #nav {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    & h4 {
+      margin: 15px;
+    }
+  }
+  
+  #navLeft {
+    display: flex;
+    text-align: left;
+  }
+  
+  #navRight {
+    display: flex;
+    position:relative;
+    left: 50%;
+  }
+  
+  #up {
+    border: 2px solid black;
+    border-radius: 2rem;
+    height: 25px;
+  }
+  
+  #in {
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    & img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
+  #banner {
+    background-image: url("https://digitalasset.intuit.com/IMAGE/A73w5KaL3/5757_NW_LP_Mint_HP1_D.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    font-family: Arial Bold, Helvetica, sans-serif;
+    font-size: larger;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  h1 {
+    color: rgb(20, 167, 159);
+  }
+  
+  #CheckBtn {
+    text-align: center;
+    width: 85%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(20, 167, 159);
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  #content {
+    border:
+    background-color lightcyan;
+    text-align: center;
+    font-family: Arial Bold, Helvetica, sans-serif;
+  }
+  
+  #contentBlock1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial Bold, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  
+  #learnMoreBtn {
+    text-align: center;
+    width: 85%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(20, 167, 159);
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  #contentBlock2 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial Bold, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  
+  #contact {
+    background-color: rgb(225, 225, 225);
+    height: 40px;
+    display: flex;
+  }
+  
+  #socialMedia{
+    position:relative;
+    left: 80%;
+    }
+    
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  #footer {
+    background-color: rgb(225, 225, 225);
+  }
+  
+  #Imgfooter {
+    display: flex;
+    height: 40px;
+    /* width: fit-content; */
+    margin: 0px;
+    justify-content: center;
+  
+    & img {
+      margin: 10px;
+    }
+  }
+  
+  #Textfooter {
+    display: flex;
+    margin: 5px;
+    line-height: 25px;
+  }
+  
+  #LeftFoot {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  #footRight {
+    text-align: left;
+    justify-content: right;
+    padding: 10px;
+  }
+  
+  #license {
+    text-align: center;
+  }
+  
